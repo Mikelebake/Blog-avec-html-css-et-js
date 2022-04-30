@@ -1,8 +1,5 @@
 :root{
-    --orange:#e67e22;
     --black:#333;
-    --border:.1rem solid rgba(0,0,0,.2);
-    --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --seconde-color: #eee;
 }
 
@@ -23,10 +20,6 @@ html{
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-padding-top: 6rem;
-}
-
-body{
-    background-color: var(--black);
 }
 
 section{
@@ -161,7 +154,7 @@ section{
 
 .banner{
     min-height: 80vh;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/bg.png);
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../images/bg-blog.jpg);
     background-size: cover;
     background-position: center;
     display: grid;
